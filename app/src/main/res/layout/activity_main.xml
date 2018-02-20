@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravit.homework2.MainActivity"
+    android:background="@drawable/tip">
+
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:ems="10"
+        android:maxLength="6"
+        android:digits="0123456789"
+        android:textSize="15dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/amounTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="0"
+
+        android:textColor="#000000"
+        android:layout_gravity="fill_horizontal"
+        android:background="#fbf8bb"
+        android:hint="@string/enter_amount"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/percentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="1"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:hint="@string/tip_percent"
+        android:textSize="15dp" />
+
+    <SeekBar
+        android:id="@+id/percentSeekBar"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="1"
+        android:max="30"
+        android:progress="15" />
+
+    <TextView
+        android:id="@+id/splitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="2"
+        android:layout_gravity="fill_horizontal"
+        android:textStyle="bold"
+        android:textColor="#fc81ffea"
+        android:hint="@string/share"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/splitEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:ems="10"
+        android:maxLength="6"
+        android:digits="0123456789"
+        android:singleLine="false"
+        android:textSize="15dp"
+        android:background="#FAE4FA"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/tipLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:textStyle="bold"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="3"
+        android:gravity="right"
+        android:hint="@string/tip"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:textStyle="bold"
+        android:background="#FAE4FA"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="3"
+        android:text="TextView"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/totalLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="4"
+        android:gravity="right"
+        android:hint=  "@string/total"
+    />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="60dp"
+        android:background="#FAE4FA"
+        android:layout_marginTop="25dp"
+        android:layout_row="4"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/splitAmtLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_row="5"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:hint="@string/split"
+        />
+
+    <TextView
+        android:id="@+id/splitAmtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="60dp"
+        android:background="#FAE4FA"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_row="5"
+        android:text="TextView"
+        android:textSize="15dp" />
+
+
+
+</GridLayout>

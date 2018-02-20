@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="enter_amount">Enter Bill Amount</string>
+    <string name="tip_percent">15%</string>
+    <string name="tip">Tip Amount</string>
+    <string name="total">Total Amount</string>
+    <string name="share">No of persons</string>>
+    <string name="split">Split Per Person</string>
+</resources>
